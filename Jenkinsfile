@@ -11,7 +11,7 @@ pipeline {
     stages {
         stage('Checkout') {
      steps {
-                git branch: 'main', url: 'https://github.com/rickygr1982/proyecto1.git', credentialsId: 'github-credentials'
+                git branch: 'main', url: 'https://github.com/djquindem/proyecto_final_epn.git', credentialsId: 'github-credentials'
             }
         }
 
